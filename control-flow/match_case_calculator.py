@@ -5,12 +5,12 @@ operator = input("Choose the operation (+, -, *, /): ")
 
 match operator:
     case "+":
-        print("The result is ", (num1 + num2))
+        print("The result is ", (num1 + num2), ".")
     case "-":
-        print("The result is ", (num1 - num2))
+        print("The result is ", (num1 - num2), ".")
     case "*":
-        print("The result is ", (num1 * num2))
+        print("The result is ", (num1 * num2), ".")
     case "/":
-        print("The result is ", (num1 / num2)) 
+        print("The result is ", (num1 / num2), ".") 
     case _:
         print("invalid input")
